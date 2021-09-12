@@ -5,10 +5,17 @@ width: 100%;
 
 .logo{
     float:left;
+    width: 10%;
 
 }
 
 body{
-    float:right;
-    width: 50%;
+    width: 100%;
+    
 }
+
+.saying{
+    float: right;
+
+}
+
