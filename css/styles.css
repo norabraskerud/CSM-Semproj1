@@ -1,3 +1,14 @@
 .h1{
 background-color: #0D0D0D;
+width: 100%;
+}
+
+.logo{
+    float:left;
+
+}
+
+body{
+    float:right;
+    width: 50%;
 }
