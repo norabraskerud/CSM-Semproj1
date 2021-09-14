@@ -1,9 +1,13 @@
+body{
+    background-image:image(index3.jpg);
+}
+
 .logoheading{
 color: white;
 height: 70px;
 font-size: 30px;
 text-align: center;
-margin-top: -110px;
+margin-top: -410px;
 margin-left: 150px;
 font-family: teko;
 z-index: -1;
@@ -18,9 +22,9 @@ z-index: -1;
 }
 
 .vrpic{
+    position: fixed;
     float: center;
     margin-top: 0px;
-    z-index: 1000px;
     position: relative;
     
 }
@@ -30,43 +34,51 @@ z-index: -1;
     width: 100%;
     height: 70px;
     margin-top: -10px;
-
-}
-
-.material-icons{
-    font-size: 48px;
    
-    z-index: 1;
-    margin-top: -500px;
-    color: white;
-
 }
+
+
 
 .icons{
     float: right;
     margin-top: -58px;
     margin-right: -20px;
+    cursor: pointer;
+    z-index: 1000;
     
     
 }
 
 .menubutton{ 
+    width: 60px;
+    height: 60px;
     background-color: black;
-    display: table-row;
-    float: left;
-    margin-top: 0px;
-    margin-left: 30px;
+    color: white;
+    background-image:url("Icon .material-icons.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    cursor: pointer;
+    
     
 }
 
-.menubutton:hover .Mbutt:hover {
-background-color: black;
+.nav-sidebar{
+    font-size: 25px;
+    width: 150px;
+    background-color: black;
+    opacity: 80%;
+    z-index: 1000px;
+}
+
+ul, li{
+    font list-style-type: none;
 
 }
 
-.Mbutt{
-display: block;
-list-style: none;
-;
-}
+a{
+    color: white;
+    text-align: center;
+    font-family: teko;
 
+}
