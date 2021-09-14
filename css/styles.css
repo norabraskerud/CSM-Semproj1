@@ -41,31 +41,16 @@ z-index: 5000;
     z-index: 1000;
 }
 
-.menubutton{ 
-    width: 100px;
-    height: 100px;
-    margin-top: -50px;
+.menubtn{ 
+    position: relative;
+    margin-top: -480px;
     margin-left: 30px;
     color: white;
+    background-color: #0D0D0D;
     cursor: pointer;
+    z-index: 9000;
 }
 
-.nav-sidebar{
-    font-size: 25px;
-    width: 150px;
-    margin-top: -75px;
-    background-color: black;
-    opacity: 80%;
-}
-
-ul, li{
-    font list-style-type: none;
-
-}
-
-a{
-    color: white;
-    text-align: center;
-    font-family: teko;
-
+.dropdown-content{
+    display: hidden;
 }
