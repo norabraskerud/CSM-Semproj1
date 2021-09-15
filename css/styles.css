@@ -11,7 +11,7 @@ color: white;
 height: 70px;
 font-size: 30px;
 text-align: center;
-margin-top: -150px;
+margin-top: -147px;
 margin-left: 150px;
 font-family: teko;
 z-index: 5000;
@@ -20,8 +20,8 @@ z-index: 5000;
 .logo{
     float:left;
     width: 40%;
-    margin-top: -60px;
-    margin-left: 350px;
+    margin-top: -63px;
+    margin-left: 346px;
     z-index: 1;
 }
 
