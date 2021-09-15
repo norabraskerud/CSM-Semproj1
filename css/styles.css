@@ -98,7 +98,7 @@ ABOUT
     text-align: center;
     padding: 100px 100px 50px 100px;
     color: #0d0d0d;
-    background-color: green;
+    background-color: white;
     opacity: 80%;
     margin-top: 50px;
     margin-left: 220px;
@@ -115,4 +115,10 @@ ABOUT
     cursor: pointer;
     padding: 5px 10px 5px 10px;
     z-index: 100;
+}
+
+.aboutimg{
+position: relative;
+z-index: -6000;
+margin-top: -600px;
 }
