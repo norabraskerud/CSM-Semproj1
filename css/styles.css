@@ -1,17 +1,18 @@
 body{
 margin: 0;
-
 }
 
+header{
+    background-color: #0d0d0d;
+}
 
 .logoheading{
-position: relative;
 color: white;
 height: 70px;
 font-size: 30px;
 text-align: center;
-margin-top: -147px;
-margin-left: 150px;
+margin-top: -110px;
+margin-left: 160px;
 font-family: teko;
 z-index: 5000;
 }
@@ -19,23 +20,14 @@ z-index: 5000;
 .logo{
 float:left;
 width: 40%;
-margin-top: -63px;
+margin-top: -65px;
 margin-left: 346px;
 z-index: 1;
 }
 
-
-.menu{
-margin-top: 0px;
-background-color: #0D0D0D;
-width: 100%;
-height: 70px;
-}
-
-
 .icons{
 float: right;
-margin-top: -58px;
+margin-top: 15px;
 margin-right: -20px;
 cursor: pointer;
 z-index: 4000;
@@ -43,9 +35,9 @@ z-index: 4000;
 
 
 .menubtn {
-background-color:black;
+background-color:#0d0d0d;
 color: white;
-margin-top: -280px;
+margin-top: 0px;
 padding: 16px;
 font-size: 16px;
 border: none;
@@ -54,8 +46,7 @@ cursor: pointer;
 }
   
 .falld {
-position: relative;
-display: inline-block;
+display: block;
 }
   
 .falld-content {
