@@ -122,3 +122,29 @@ position: relative;
 z-index: -6000;
 margin-top: -600px;
 }
+
+EXPLORE
+
+.p{
+font-family: teko;
+}
+
+.exptext{
+width: 700px;
+text-align: center;
+font-size: 20px;
+font-family: teko;
+margin-left: 230px;
+margin-top: 40px;
+padding: 40px 100px 100px 100px;
+background-color: white;
+color: #0d0d0d;
+opacity: 80%;
+cursor: pointer;
+}
+
+.expimg{
+position: relative;
+z-index: -6000;
+margin-top: -800px;
+}
