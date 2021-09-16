@@ -27,7 +27,8 @@ z-index: 1;
 
 .icons{
 float: right;
-margin-top: 15px;
+margin-top: 20px;
+padding: 0px 20px 0px 0px;
 margin-right: -20px;
 cursor: pointer;
 z-index: 4000;
