@@ -194,12 +194,13 @@ font-family: teko;
 padding: 20px 50px 20px 50px;
 text-align: center;
 color: #0d0d0d;
-width: 136px;
+width: 200px;
 background-color:white;
 opacity: 70%;
-margin-left: 1000px;
+margin-left: 900px;
 margin-top: -800px;
 z-index: 6000;
+font-size: 20px;
 }
 
 .visittext{
@@ -207,11 +208,43 @@ font-family: teko;
 padding: 20px 50px 20px 50px;
 text-align: center;
 color: #0d0d0d;
-width: 150px;
+width: 300px;
 background-color:white;
 opacity: 80%;
-margin-top: -260px;
-margin-left: 530px;
+margin-top: -300px;
+margin-left: 470px;
+font-size: 20px;
+}
+
+.locationtext{
+font-family: teko;
+padding: 20px 50px 20px 50px;
+text-align: center;
+color: #0d0d0d;
+width: 200px;
+background-color: white;
+opacity: 80%;
+font-size: 20px;
+margin-top: -270px;
+margin-left: 140px;
+}
+
+.acctext{
+font-family: teko;
+padding: 20px 100px 20px 100px;
+text-align: center;
+width: 600px;
+background-color: white;
+opacity: 80%;
+font-size: 20px;
+margin-top: 50px;
+margin-left: 250px;
+}
+
+.foodtext{
+font-family: teko;
+padding: 20px 100px 20px 100px;
+
 }
 
 .visitimg{
