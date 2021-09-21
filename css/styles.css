@@ -5,7 +5,7 @@ margin: 0;
 }
 
 header{
-    background-color: #0d0d0d;
+background-color: #0d0d0d;
 }
 
 .logoheading{
@@ -91,33 +91,33 @@ z-index: -2000px;
 
 ABOUT
 .p{
-    font-family: teko;
+font-family: teko;
 }
 
 .abouttext{
-    font-family: teko;
-    font-size: 20px;
-    width: 700px;
-    text-align: center;
-    padding: 40px 100px 50px 100px;
-    color: #0d0d0d;
-    background-color: white;
-    opacity: 80%;
-    margin-top: 20px;
-    margin-left: 220px;
-    z-index: -1000;
+font-family: teko;
+font-size: 20px;
+width: 700px;
+text-align: center;
+padding: 40px 100px 50px 100px;
+color: #0d0d0d;
+background-color: white;
+opacity: 80%;
+margin-top: 20px;
+margin-left: 220px;
+z-index: -1000;
 }
 
 .book{
-    border-radius: 20px 20px 20px 20px;
-    border-color: #FC5D35;
-    font-size: 20px;
-    background-color: white;
-    color: #0d0d0d;
-    font-family: teko;
-    cursor: pointer;
-    padding: 5px 10px 5px 10px;
-    z-index: 100;
+border-radius: 20px 20px 20px 20px;
+border-color: #FC5D35;
+font-size: 20px;
+background-color: white;
+color: #0d0d0d;
+font-family: teko;
+cursor: pointer;
+padding: 5px 10px 5px 10px;
+z-index: 100;
 }
 
 .aboutimg{
