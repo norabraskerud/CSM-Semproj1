@@ -1,44 +1,123 @@
 
+
+body{
+margin: 0;
+}
+
+header{
+background-color: #0d0d0d;
+}
+
 .logoheading{
-position: relative;
 color: white;
 height: 70px;
-font-size: 30px;
+font-size: 2vw;
 text-align: center;
-margin-top: -330px;
-margin-left: 150px;
+margin-top: -100px;
+margin-left: 210px;
 font-family: teko;
 z-index: 5000;
 }
 
 .logo{
-    float:left;
-    width: 40%;
-    margin-top: -60px;
-    margin-left: 350px;
-    z-index: 1;
+float:left;
+width: 40%;
+margin-top: -65px;
+margin-left: 380px;
+z-index: 1;
 }
-
-.vrpic{
-    float: center;
-    position: relative;
-    
-}
-
-.menu{
-    margin-top: 0px;
-    background-color: #0D0D0D;
-    width: 100%;
-    height: 70px;
-}
-
 
 .icons{
-    float: right;
-    margin-top: -58px;
-    margin-right: -20px;
-    cursor: pointer;
-    z-index: 1000;
+float: right;
+margin-top: 20px;
+padding: 0px 20px 0px 0px;
+margin-right: -20px;
+cursor: pointer;
+z-index: 4000;
+}
+
+
+.menubtn {
+background-color:#0d0d0d;
+color: white;
+margin-top: 0px;
+padding: 16px;
+font-size: 16px;
+border: none;
+z-index: 1000;
+cursor: pointer;
+}
+  
+.falld {
+display: block;
+}
+  
+.falld-content {
+display: none;
+position: absolute;
+background-color: black;
+opacity: 80%;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px; 
+z-index: 1;
+}
+  
+.falld-content a {
+font-family: teko;
+font-size: 30px;
+color: white;
+padding: 12px 16px;
+text-decoration: none;
+text-align: center;
+display: block;
+}
+  
+.falld-content a:hover {
+background-color:black;
+opacity: 80%;
+}
+  
+.falld:hover .falld-content {
+display: block;
+}
+
+
+.vrpic{
+float: center;
+z-index: -2000px;
+}
+
+
+
+ABOUT
+.p{
+font-family: teko;
+}
+
+.abouttext{
+font-family: teko;
+font-size: 1.5vw;
+width: 700px;
+text-align: center;
+padding: 40px 100px 50px 100px;
+color: #0d0d0d;
+background-color: white;
+opacity: 80%;
+margin-top: 20px;
+margin-left: 220px;
+z-index: -1000;
+}
+
+.book{
+border-radius: 20px 20px 20px 20px;
+border-color: #FC5D35;
+font-size: 20px;
+background-color: white;
+color: #0d0d0d;
+font-family: teko;
+cursor: pointer;
+padding: 5px 10px 5px 10px;
+z-index: 100;
 }
 
 .menubtn{ 
@@ -52,7 +131,144 @@ z-index: 5000;
     size: 50px; 
 }
 
-.dropdown-content{
-    display: hidden;
-    
+EXPLORE
+
+.p{
+font-family: teko;
+}
+
+.exptext{
+width: 700px;
+text-align: center;
+font-size: 1.5vw;
+font-family: teko;
+margin-left: 230px;
+margin-top: 30px;
+padding: 40px 100px 50px 100px;
+background-color: white;
+color: #0d0d0d;
+opacity: 80%;
+cursor: pointer;
+}
+
+.expimg{
+position: relative;
+z-index: -6000;
+margin-top: -1400px;
+}
+
+
+EXHIBITION
+
+.p{
+font-family: teko;
+
+}
+
+.exitext{
+width: 700px;
+text-align: center;
+font-family: teko;
+font-size: 1.5vw;
+margin-left: 120px;
+margin-top: 40px;
+padding: 70px 200px 200px 200px;
+background-color: white;
+color: #0d0d0d;
+opacity: 80%;
+
+}
+
+.exhibitionimg{
+position: relative;
+z-index: -6000;
+margin-top: -1500px;
+}
+
+
+.falld-content .current{
+background-color:#FC5D35;
+}
+
+VISIT 
+
+.p{
+font-family: teko;
+}
+
+.locationtext,.hourtext, .visittext, .acctext, .foodtext, .shoptext{
+font-family: teko;
+text-align: center;
+background-color: white;
+opacity: 80%;
+font-size: 1.5vw;
+color: #0d0d0d;
+}
+
+.hourtext{
+padding: 5px 50px;
+width: 200px;
+margin-left: 840px;
+margin-top: -820px;
+z-index: 6000;
+}
+
+.visittext{
+padding: 2px 20px 5px 20px;
+width: 300px;
+margin-top: -320px;
+margin-left: 470px;
+}
+
+.locationtext{
+padding: 20px 50px 20px 50px;
+width: 200px;
+margin-top: -300px;
+margin-left: 140px;
+}
+
+.acctext{
+padding: 10px 100px 10px 100px;
+width: 600px;
+margin-top: 50px;
+margin-left: 250px;
+}
+
+.foodtext, .shoptext{
+padding: 7px 100px 7px 100px;
+width: 600px;
+margin-left: 250px;
+margin-top: 10px;
+}
+
+.visitimg{
+position: relative;
+z-index: -8000;
+}
+
+SPECIAL EVENTS
+
+.p, h1{
+font-family: teko;
+}
+
+.newstext{
+font-family: teko;
+width: 900px;
+margin-left: 160px;
+margin-top: 60px;
+padding: 10px 50px 50px 50px;
+text-align: center;
+font-size: 1.8vw;
+background-color: white;
+opacity: 70%;
+color: #0d0d0d;
+z-index: 10000;
+
+}
+
+.imghuman{
+position: relative;
+margin-top: -980px;
+z-index: -9000;
 }
