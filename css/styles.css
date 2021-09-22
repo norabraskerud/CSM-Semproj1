@@ -157,13 +157,13 @@ EXHIBITION
 
 .p{
 font-family: teko;
+font-size: 2vw;
+font-family: teko;
 }
 
 .exitext{
 width: 700px;
 text-align: center;
-font-size: 20px;
-font-family: teko;
 margin-left: 120px;
 margin-top: 40px;
 padding: 70px 200px 200px 200px;
@@ -195,22 +195,22 @@ font-family: teko;
 text-align: center;
 background-color: white;
 opacity: 80%;
-font-size: 20px;
+font-size: 1.5vw;
 color: #0d0d0d;
 }
 
 .hourtext{
-padding: 20px 50px 20px 50px;
+padding: 5px 50px;
 width: 200px;
 margin-left: 840px;
-margin-top: -830px;
+margin-top: -820px;
 z-index: 6000;
 }
 
 .visittext{
 padding: 2px 20px 5px 20px;
 width: 300px;
-margin-top: -330px;
+margin-top: -320px;
 margin-left: 470px;
 }
 
@@ -222,14 +222,14 @@ margin-left: 140px;
 }
 
 .acctext{
-padding: 20px 100px 20px 100px;
+padding: 10px 100px 10px 100px;
 width: 600px;
 margin-top: 50px;
 margin-left: 250px;
 }
 
 .foodtext, .shoptext{
-padding: 10px 100px 10px 100px;
+padding: 7px 100px 7px 100px;
 width: 600px;
 margin-left: 250px;
 margin-top: 10px;
@@ -248,12 +248,12 @@ font-family: teko;
 
 .newstext{
 font-family: teko;
-width: 600px;
-margin-left: 300px;
+width: 900px;
+margin-left: 160px;
 margin-top: 60px;
 padding: 10px 50px 50px 50px;
 text-align: center;
-font-size: 20px;
+font-size: 1.8vw;
 background-color: white;
 opacity: 70%;
 color: #0d0d0d;
@@ -263,6 +263,6 @@ z-index: 10000;
 
 .imghuman{
 position: relative;
-margin-top: -750px;
+margin-top: -980px;
 z-index: -9000;
 }
