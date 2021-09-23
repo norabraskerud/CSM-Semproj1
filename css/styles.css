@@ -1,24 +1,33 @@
 
 
 /* For mobile phones: */
-[class*="col-"] {
+  [class*="icons, falld, menubtn, logoheading, logo, visitimg, hourtext, visittext, locationtext, acctext, shoptext, foodtext"] {
+    [class*=""] {
     width: 100%;
   }
+
+  @media only screen and (min-width:200px){
+
+  }
+  }
+      
+  }
   
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 200px) {
     /* For desktop: */
-    .icons {width: 8.66%;}
-    .menubtn {width: 8.66%;}
-    .logo {width: 10%;}
-    .logoheading {width: 50%;}
-    .falld-content {width: 20%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
+    .icons {width: 15%;}
+    .menubtn {width:15%;}
+    .logo {width: 15%;}
+    .logoheading {width: 80%;}
+    .falld-content {width: 15%;}
+    .visitimg {width: 15%;}
+    .hourtext {width: 15%;}
+    .visittext {width: 15%%;}
+    .locationtext {width: 15%;}
+    .acctext {width: 15%;}
+    .shoptext {width: 15%;}
+    .foodtext {width: 15%;}
+    .newstext { width: 15%; }
   }
 
   [class*="icons, falld, menubtn, logoheading, logo, visitimg, hourtext, visittext, locationtext, acctext, shoptext, foodtext"] {
@@ -31,7 +40,13 @@ margin: 0;
 }
 
 header{
+
 background-color: #0d0d0d;
+background-position: center;
+position: sticky;
+min-height: 70px;
+max-width: 3000px;
+
 }
 
 .logoheading{
@@ -39,16 +54,17 @@ color: white;
 height: 70px;
 font-size: 2vw;
 text-align: center;
-margin-top: -100px;
-margin-left: 210px;
+position:sticky;
+margin-top: -130px;
+margin-left: 350px;
 font-family: teko;
 z-index: 5000;
 }
 
 .logo{
-float:left;
+position: fixed;
 width: 40%;
-margin-top: 0px;
+margin-top: -70px;
 margin-left: 380px;
 z-index: 1;
 }
