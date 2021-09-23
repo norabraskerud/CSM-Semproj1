@@ -1,11 +1,21 @@
 
-  
-  @media only screen and (min-width: 200px) {
+ 
+  @media only screen and (min-width: 800px) {
     /* For desktop: */
-    .icons {width: 15%;}
-    .menubtn {width:15%;}
-    .logo {width: 15%;}
-    .logoheading {width: 80%;}
+    .icons {
+        width: 15%;
+    }
+    .menubtn {
+        width:15%;
+    }
+    .logo {
+        width: 100%;
+        
+    }
+    .logoheading {
+        width: 80%;
+        margin-top: 50px;
+    }
     .falld-content {width: 15%;}
     .visitimg {width: 15%;}
     .hourtext {width: 15%;}
@@ -14,24 +24,25 @@
     .acctext {width: 15%;}
     .shoptext {width: 15%;}
     .foodtext {width: 15%;}
-    .newstext { width: 15%; }
-    .aboutimg { width: 100%;}
+    .newstext { width: 30; }
+    
   }
 
-  [class*="icons, falld, menubtn, logoheading, logo, visitimg, hourtext, visittext, locationtext, acctext, shoptext, foodtext"] {
+  [class*="icons, falld, menubtn, logoheading, logo"] {
     float: left;
     padding: 15px;
   }
+
+
+
 
 body{
 margin: 0;
 }
 
 header{
-
 background-color: #0d0d0d;
 background-position: center;
-position: sticky;
 min-height: 70px;
 max-width: 3000px;
 
@@ -41,21 +52,21 @@ max-width: 3000px;
 color: white;
 font-size: 2vw;
 text-align: center;
-margin-top: 0px;
-margin-left: 350px;
+margin-left: 150px;
+margin-top: -118px;
 font-family: teko;
 z-index: 5000;
 }
 
 .logo{
-margin-top: -140px;
-margin-left: 200px;
+position: absolute;
+margin-top: -90px;
+margin-left: 380px;
 z-index: 1;
 }
 
 .icons{
 float: right;
-margin-top: 20px;
 padding: 0px 20px 0px 0px;
 margin-right: -20px;
 cursor: pointer;
@@ -64,9 +75,9 @@ z-index: 4000;
 
 
 .menubtn {
+position: relative;
 background-color:#0d0d0d;
 color: white;
-margin-top: 0px;
 padding: 16px;
 font-size: 16px;
 border: none;
@@ -124,7 +135,7 @@ font-family: teko;
 .abouttext{
 font-family: teko;
 font-size: 1.5vw;
-
+max-width: 900px;
 text-align: center;
 padding: 40px 100px 50px 100px;
 color: #0d0d0d;
@@ -148,7 +159,7 @@ z-index: 100;
 .aboutimg{
 position: relative;
 z-index: -6000;
-margin-top: -600px;
+margin-top: -650px;
 }
 
 EXPLORE
@@ -274,8 +285,8 @@ font-family: teko;
 
 .newstext{
 font-family: teko;
-width: 900px;
-margin-left: 160px;
+max-width: 900px;
+margin-left: 250px;
 margin-top: 60px;
 padding: 10px 50px 50px 50px;
 text-align: center;
