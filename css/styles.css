@@ -15,6 +15,7 @@
     .shoptext {width: 15%;}
     .foodtext {width: 15%;}
     .newstext { width: 15%; }
+    .aboutimg { width: 100%;}
   }
 
   [class*="icons, falld, menubtn, logoheading, logo, visitimg, hourtext, visittext, locationtext, acctext, shoptext, foodtext"] {
@@ -123,21 +124,19 @@ font-family: teko;
 .abouttext{
 font-family: teko;
 font-size: 1.5vw;
-width: 700px;
+
 text-align: center;
 padding: 40px 100px 50px 100px;
 color: #0d0d0d;
 background-color: white;
 opacity: 80%;
-margin-top: 20px;
-margin-left: 220px;
 z-index: -1000;
 }
 
 .book{
 border-radius: 20px 20px 20px 20px;
 border-color: #FC5D35;
-font-size: 20px;
+font-size: 2vw;
 background-color: white;
 color: #0d0d0d;
 font-family: teko;
