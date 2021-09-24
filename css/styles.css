@@ -1,4 +1,44 @@
 
+  @media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+  
+  @media screen (min-width: 400px) {
+    /* For desktop: */
+    .icons {
+        width: 15%;
+    }
+    .menubtn {
+        width:15%;
+    }
+    .logo {
+        width: 2%;
+        float: left;
+        
+    }
+    .logoheading {
+        width: 80%;
+        margin-top: 50px;
+    }
+    .falld-content {width: 15%;}
+    .visitimg {width: 15%;}
+    .hourtext {width: 15%;}
+    .visittext {width: 15%%;}
+    .locationtext {width: 15%;}
+    .acctext {width: 15%;}
+    .shoptext {width: 15%;}
+    .foodtext {width: 15%;}
+    .newstext { width: 30; }
+    
+  }
+
+  [class*="icons, falld, menubtn, logoheading, logo"] {
+    float: left;
+    padding: 15px;
+  }
+
 
 body{
 margin: 0;
@@ -6,30 +46,30 @@ margin: 0;
 
 header{
 background-color: #0d0d0d;
+background-position: center;
+min-height: 70px;
+
+
 }
 
 .logoheading{
 color: white;
-height: 70px;
 font-size: 2vw;
 text-align: center;
-margin-top: -100px;
-margin-left: 210px;
+margin-left: 150px;
+margin-top: -118px;
 font-family: teko;
 z-index: 5000;
 }
 
 .logo{
-float:left;
-width: 40%;
-margin-top: -65px;
-margin-left: 380px;
+margin-top: -60px;
+margin-left: 280px;
 z-index: 1;
 }
 
 .icons{
 float: right;
-margin-top: 20px;
 padding: 0px 20px 0px 0px;
 margin-right: -20px;
 cursor: pointer;
@@ -38,14 +78,15 @@ z-index: 4000;
 
 
 .menubtn {
+position: relative;
 background-color:#0d0d0d;
 color: white;
-margin-top: 0px;
 padding: 16px;
 font-size: 16px;
 border: none;
 z-index: 1000;
 cursor: pointer;
+min-width: 150px;
 }
   
 .falld {
@@ -97,21 +138,19 @@ font-family: teko;
 .abouttext{
 font-family: teko;
 font-size: 1.5vw;
-width: 700px;
+max-width: 900px;
 text-align: center;
 padding: 40px 100px 50px 100px;
 color: #0d0d0d;
 background-color: white;
 opacity: 80%;
-margin-top: 20px;
-margin-left: 220px;
 z-index: -1000;
 }
 
 .book{
 border-radius: 20px 20px 20px 20px;
 border-color: #FC5D35;
-font-size: 20px;
+font-size: 2vw;
 background-color: white;
 color: #0d0d0d;
 font-family: teko;
@@ -254,8 +293,8 @@ font-family: teko;
 
 .newstext{
 font-family: teko;
-width: 900px;
-margin-left: 160px;
+max-width: 900px;
+margin-left: 250px;
 margin-top: 60px;
 padding: 10px 50px 50px 50px;
 text-align: center;
