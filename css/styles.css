@@ -1,6 +1,11 @@
 
- 
-  @media only screen and (min-width: 800px) {
+  @media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+  
+  @media screen (min-width: 400px) {
     /* For desktop: */
     .icons {
         width: 15%;
@@ -9,7 +14,8 @@
         width:15%;
     }
     .logo {
-        width: 100%;
+        width: 2%;
+        float: left;
         
     }
     .logoheading {
@@ -33,6 +39,7 @@
     padding: 15px;
   }
 
+ 
 
 
 
@@ -44,7 +51,7 @@ header{
 background-color: #0d0d0d;
 background-position: center;
 min-height: 70px;
-max-width: 3000px;
+
 
 }
 
@@ -59,9 +66,8 @@ z-index: 5000;
 }
 
 .logo{
-position: absolute;
-margin-top: -90px;
-margin-left: 380px;
+margin-top: -60px;
+margin-left: 280px;
 z-index: 1;
 }
 
