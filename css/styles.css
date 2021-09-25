@@ -1,11 +1,5 @@
 
-  @media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-}
-  
-  @media screen (min-width: 400px) {
+  @media only screen and (min-width: 400px) {
     /* For desktop: */
     .icons {
         width: 15%;
@@ -14,13 +8,12 @@
         width:15%;
     }
     .logo {
-        width: 2%;
-        float: left;
+        width: 100%;
         
     }
     .logoheading {
-        width: 80%;
-        margin-top: 50px;
+      float: left;
+      width: 100%;
     }
     .falld-content {width: 15%;}
     .visitimg {width: 15%;}
@@ -48,32 +41,35 @@ header{
 background-color: #0d0d0d;
 background-position: center;
 min-height: 70px;
+z-index: -5000px;
 
 
 }
 
 .logoheading{
+position: absolute;
 color: white;
 font-size: 2vw;
 text-align: center;
-margin-left: 150px;
-margin-top: -118px;
+margin-top: -90px;
 font-family: teko;
-z-index: 5000;
+z-index: 5000px;
 }
 
 .logo{
+position: absolute;
 margin-top: -60px;
-margin-left: 280px;
-z-index: 1;
+margin-left: 250px;
+z-index: 5001px;
 }
 
 .icons{
 float: right;
+margin-top: 5px;
 padding: 0px 20px 0px 0px;
-margin-right: -20px;
+margin-right: -30px;
 cursor: pointer;
-z-index: 4000;
+z-index: 4000px;
 }
 
 
@@ -84,9 +80,10 @@ color: white;
 padding: 16px;
 font-size: 16px;
 border: none;
-z-index: 1000;
+z-index: -9000px;
 cursor: pointer;
 min-width: 150px;
+
 }
   
 .falld {
