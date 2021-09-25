@@ -1,5 +1,5 @@
  
- @media only screen and (min-width: 200px) {
+ @media (min-width: 200px) {
     /*For desktop:*/
   .icons {
   width: 15%;
@@ -60,12 +60,7 @@ font-family: teko;
 z-index: 5000px;
 }
 
-.div.logo{
-  max-width: 10%;
-}
-
 .logo{
-position: absolute;
 margin-top: -60px;
 margin-left: 270px;
 z-index: 5001px;
@@ -191,7 +186,7 @@ max-width: 700px;
 text-align: center;
 font-size: 1.5vw;
 font-family: teko;
-margin-left: 240px;
+margin-left: 350px;
 margin-top: 30px;
 color: #0d0d0d;
 background-color: white;
@@ -240,61 +235,31 @@ background-color:#FC5D35;
 }
 
 VISIT 
-
-.p{
-font-family: teko;
-}
-
-
-.locationtext,.hourtext, .visittext, .acctext, .foodtext, .shoptext{
-font-family: teko;
-text-align: center;
-background-color: white;
-opacity: 80%;
-font-size: 1.5vw;
-color: #0d0d0d;
-}
-
-.hourtext{
-padding: 5px 50px;
-width: 200px;
-margin-left: 840px;
-margin-top: -820px;
-z-index: 6000;
+p{
+  font-family: teko;
 }
 
 .visittext{
-padding: 2px 20px 5px 20px;
-width: 300px;
-margin-top: -320px;
-margin-left: 470px;
-}
-
-.locationtext{
-padding: 20px 50px 20px 50px;
-width: 200px;
-margin-top: -300px;
-margin-left: 140px;
-}
-
-.acctext{
-padding: 10px 100px 10px 100px;
-width: 600px;
-margin-top: 50px;
-margin-left: 250px;
-}
-
-.foodtext, .shoptext{
-padding: 7px 100px 7px 100px;
-width: 600px;
-margin-left: 250px;
-margin-top: 10px;
+  font-family: teko;
+  text-align: center;
+  max-width: 900px;
+  font-size: 1vw;
+  color: #0d0d0d;
+  background-color: white;
+  opacity: 80%;
+  padding: 30px 70px 30px 70px;
+  margin-left: 300px;
+  margin-top: -550px;
+  z-index: 3px;
 }
 
 .visitimg{
+height: 600px;
 position: relative;
 z-index: -8000;
 }
+
+
 
 SPECIAL EVENTS
 
@@ -304,8 +269,8 @@ font-family: teko;
 
 .newstext{
 font-family: teko;
-max-width: 900px;
-margin-left: 250px;
+max-width: 700px;
+margin-left: 350px;
 margin-top: 60px;
 padding: 10px 50px 50px 50px;
 text-align: center;
