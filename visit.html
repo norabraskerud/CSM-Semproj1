@@ -6,41 +6,44 @@
     <meta name="description" content="Community science museum" />
     <title>Community Science Museum | Visit</title>
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.google.com/icons?selected=Material%20Icons%20Two%20Tone%3Amenu%3A" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/3ca04481c9.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" />
   </head>
 
-<header>
-
-  <div class="icons">
-      <img src="images/Icon map-museum.png" alt="museum button" width="25%" br >
-      <img src="images/Icon awesome-phone-alt.png" alt="phone button" width="25%">
-  </div>
-    
-  <div class="falld">
-    <button class="menubtn"> <img src="images/Icon material-menu.png" alt="menu icon" width="18%"></button>
-      <div class="falld-content">
-        <a href="index.html">Home</a>
-        <a href="about.html">About us</a>
-        <a href="explore.html">Explore</a>
-        <a href="exhibition.html">Exhibition Spaces</a>
-        <a href="speciale.html">Special Events and Exhibitions</a>
-        <a class="current" href="visit.html">Visit</a>
-        <a href="#">Get involved</a>
-      </div>
-  </div>
-     
-  <div class="logoheading">
-    <h1>COMMUNITY SCIENCE MUSEUM</h1>
-  </div>
-    
-  <div class="logo">
-   <img src="images/nøkkelferdig.png" alt="the companys logo" width="4%">
-  </div>
-    
-</header>
 
 <body>
+
+<header> 
+
+  <div class="logoheading">
+    <h1>COMMUNITY SCIENCE MUSEUM</h1>
+    
+  </div>
+
+  <div class="logobox">
+    <img src="images/nøkkelferdig.png" class="logo" alt="the companys logo">
+</div>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="about.html">About us</a>
+  <a href="explore.html">Explore</a>
+  <a href="exhibition.html">Exhibitions Spaces</a>
+  <a href="speciale.html">Special Events and Exhibitions</a>
+  <a href="visit.html">Visit</a>
+  <a href="#">Get involved</a>
+  <a href="javascript:" class="icon" onclick="myHamBtn()">
+  <i class="fa fa-bars"></i></a>
+  <a href="javascript:void(0);" class="iconsearch" onclick="">
+  <i class="fa fa-search"></i></a>
+</div>
+
+</header>
+
 <div class="visitimg">
   <img src="images/visit.png" alt="picture of the museums inside" width=100%>
 </div>
@@ -89,7 +92,6 @@
 </div>
 
 
-</body>
 
-    
+</body>    
 </html>

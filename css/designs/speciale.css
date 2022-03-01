@@ -1,0 +1,26 @@
+SPECIAL EVENTS
+
+.p, h1{
+font-family: teko;
+}
+
+.newstext{
+font-family: teko;
+max-width: 700px;
+margin-left: 350px;
+margin-top: 60px;
+padding: 10px 50px 50px 50px;
+text-align: center;
+font-size: 1.8vw;
+background-color: white;
+opacity: 70%;
+color: #0d0d0d;
+z-index: 10000;
+
+}
+
+.imghuman{
+position: relative;
+margin-top: -980px;
+z-index: -9000;
+}
