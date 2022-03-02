@@ -1,7 +1,7 @@
 
 .abouttext{
 font-family: teko;
-font-size: 1.5vw;
+font-size: 16px;
 text-align: center;
 padding: 40px 100px 50px 100px;
 color: #0d0d0d;
@@ -31,9 +31,30 @@ z-index: 100;
     z-index: 9000;
 }
 
-.aboutimg{
-  background-image: url("images/about.png");
-  z-index: -10000px;
+.about{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 
+.btn{
+  font-family: "Teko";
+  letter-spacing: 2px;
+  font-size: 20px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  background: #FC5D35;
+  border-radius: 5px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+}
+
+.btn:hover{
+  background-color: white;
+  color: #cc4949;
+  border: 2px solid #cc4949;
+}

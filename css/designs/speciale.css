@@ -5,9 +5,9 @@ font-family: teko;
 }
 
 .newstext{
+position: relative;
 font-family: teko;
 max-width: 700px;
-margin-left: 350px;
 margin-top: 60px;
 padding: 10px 50px 50px 50px;
 text-align: center;
@@ -20,7 +20,6 @@ z-index: 10000;
 }
 
 .imghuman{
-position: relative;
-margin-top: -980px;
+object-fit: cover;
 z-index: -9000;
 }

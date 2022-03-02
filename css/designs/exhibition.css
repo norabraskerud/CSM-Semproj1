@@ -9,7 +9,6 @@ max-width: 600px;
 text-align: center;
 font-family: teko;
 font-size: 1.5vw;
-margin-left: 350px;
 margin-top: 40px;
 padding: 50px 100px 50px 100px;
 background-color: white;
@@ -21,10 +20,7 @@ opacity: 80%;
 .exhibitionimg{
 position: relative;
 z-index: -6000;
-margin-top: -1650px;
 }
 
 
-.falld-content .current{
-background-color:#FC5D35;
-}
+

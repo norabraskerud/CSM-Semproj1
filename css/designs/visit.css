@@ -1,9 +1,8 @@
-
-p{
+p {
   font-family: teko;
 }
 
-.visittext{
+.visittext {
   font-family: teko;
   text-align: center;
   font-size: 1vw;
@@ -14,9 +13,9 @@ p{
   margin-top: -500px;
 }
 
-.visitimg{
-position: relative;
-object-fit: cover;
-z-index: -8000;
+.visitimg {
+  position: relative;
+  object-fit: cover;
+  z-index: -8000;
 }
 
