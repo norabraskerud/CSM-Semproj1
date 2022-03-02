@@ -1,6 +1,6 @@
 .footer-design {
     padding:40px 0;
-    background-color:#ffffff;
+    background-color:black;
     color: white;
     font-family: 'Teko';
     letter-spacing: 2px;
@@ -10,7 +10,7 @@
     padding:0;
     list-style:none;
     text-align:center;
-    font-size:1.5vw;
+    font-size: 20px;
     line-height:1.6;
     margin-bottom:0;
   }
@@ -30,33 +30,10 @@
     opacity:1;
   }
   
-  .footer-design .social {
-    text-align:center;
-    padding-bottom:25px;
-  }
-  
-  .footer-design .social > a {
-    font-size:24px;
-    width:40px;
-    height:40px;
-    line-height:40px;
-    display:inline-block;
-    text-align:center;
-    border-radius:50%;
-    border:1px solid #ccc;
-    margin:0 8px;
-    color:inherit;
-    opacity:0.75;
-  }
-  
-  .footer-design .social > a:hover {
-    opacity:0.9;
-  }
-  
   .footer-design .copyright {
     margin-top:15px;
     text-align:center;
     font-size:13px;
-    color:#aaa;
+    color: white;
     margin-bottom:0;
   }

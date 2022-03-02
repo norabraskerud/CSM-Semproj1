@@ -27,10 +27,6 @@ header {
   margin-top: -100px;
 }
 
-.vrpic {
-  float: center;
-  z-index: -2000px;
-}
 
 /*----------------------------------------------------------------*/
 
@@ -65,19 +61,27 @@ header {
   display: none;
 }
 
-.call2 {
-    text-align: center;
-    margin-top: -150px;
-  }
-  
-  .call2action {
+.containerindex{
+    position: relative;
+    width: 100%;
+}
+
+.vrpic {
+    width: 100%;
+    height: auto;
+}
+
+.call2action {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     font-family: "Teko";
     letter-spacing: 2px;
     font-size: 20px;
     text-decoration: none;
-    overflow: hidden;
     border: none;
-    margin-top: -300px;
     cursor: pointer;
     background: #FC5D35;
     border-radius: 5px;
@@ -85,9 +89,10 @@ header {
     padding-top: 10px;
     padding-bottom: 10px;
     transition: all 0.3s;
-  }
-  
-  .call2action:hover {
+      
+}
+
+.call2action:hover {
     background-color: white;
     color: #cc4949;
     border: 2px solid #cc4949;

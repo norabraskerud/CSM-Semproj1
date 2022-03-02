@@ -1,20 +1,12 @@
-ABOUT
-.p{
-font-family: teko;
-}
 
 .abouttext{
 font-family: teko;
 font-size: 1.5vw;
-max-width: 700px;
-margin-left: 270px;
-margin-top: 15px;
 text-align: center;
 padding: 40px 100px 50px 100px;
 color: #0d0d0d;
 background-color: white;
 opacity: 80%;
-z-index: -1000;
 
 }
 
@@ -33,27 +25,15 @@ z-index: 100;
 .menubtn{ 
     position: relative;
     margin-top: -35x;
-    margin-left: 30px;
     color: white;
     background-color: #0D0D0D;
     cursor: pointer;
     z-index: 9000;
-    size: 50px; 
 }
 
 .aboutimg{
-  margin-top: -725px;
+  background-image: url("images/about.png");
   z-index: -10000px;
 }
 
-footer{
-  position: relative;
-  background-color: #0d0d0d;
-  text-align: center;
-  font-size: 1vw;
-  color: white;
-  font-family: teko;
-  padding: 10px;
-  margin-bottom: 0px;
-  z-index: 100000px; 
-}
+
