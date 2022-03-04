@@ -11,21 +11,19 @@ header {
 .logoheading {
   color: white;
   font-size: 26px;
-  text-align: center;
   font-family: teko;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 30px;
 }
 
 .logo {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+width: 20%;
+padding: 0;
 }
 
-.logobox {
-  width: 70px;
-  margin-left: 40px;
-  margin-top: -100px;
-}
+
 
 h1{
     text-align: center;
@@ -33,21 +31,31 @@ h1{
 
 /*----------------------------------------------------------------*/
 
+
+.vrpic{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
 .topnav {
   font-family: "Teko";
   text-transform: uppercase;
   overflow: hidden;
   letter-spacing: 1px;
+
 }
 
 .topnav a {
   float: left;
-  display: block;
   padding: 14px 16px;
   color: white;
   text-align: center;
   text-decoration: none;
+  font-size: 17px;
+
 }
+
 
 .topnav a:hover {
   background-color: #D18DD8;
@@ -66,12 +74,6 @@ h1{
 
 .containerindex{
     position: relative;
-    width: 100%;
-}
-
-.vrpic {
-    width: 100%;
-    height: auto;
 }
 
 .call2action {
@@ -91,7 +93,7 @@ h1{
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
-    transition: all 0.3s;
+    
       
 }
 
