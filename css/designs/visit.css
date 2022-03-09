@@ -1,21 +1,10 @@
-p {
-  font-family: teko;
-}
 
-.visittext {
-  font-family: teko;
-  text-align: center;
-  font-size: 1vw;
-  color: #0d0d0d;
-  background-color: white;
-  opacity: 80%;
-  z-index: 3px;
-  margin-top: -500px;
+.visittext{
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .visitimg {
-  position: relative;
   object-fit: cover;
-  z-index: -8000;
 }
 

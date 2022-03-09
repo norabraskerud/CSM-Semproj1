@@ -1,5 +1,8 @@
+.hr{
+  color: white;
+}
+
 .footer-design {
-    margin-bottom: -40px;
     padding:40px 0;
     background-color:black;
     color: white;
@@ -32,8 +35,15 @@
   .footer-design .copyright {
     margin-top:15px;
     text-align:center;
-    font-size:13px;
+    font-size:1.5vh;
     color: white;
     margin-bottom:0;
     font-weight: 700;
+  }
+
+  @media screen and (max-width: 600px) {
+    .footer a:not(:first-child) {
+      display: none;
+    }
+  
   }

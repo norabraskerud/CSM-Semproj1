@@ -1,17 +1,9 @@
 
+.abouttext{
+text-align: center;
 
-
-.book{
-border-radius: 20px 20px 20px 20px;
-border-color: #FC5D35;
-font-size: 2vw;
-background-color: white;
-color: #0d0d0d;
-font-family: teko;
-cursor: pointer;
-padding: 5px 10px 5px 10px;
-z-index: 100;
 }
+
 
 .menubtn{ 
     position: relative;
@@ -24,7 +16,7 @@ z-index: 100;
 
 .about{
   width: 100%;
-  height: auto;
+  height: 600px;
   object-fit: cover;
 }
 
@@ -32,7 +24,7 @@ z-index: 100;
 .btn{
   font-family: "Teko";
   letter-spacing: 2px;
-  font-size: 2vw;
+  font-size: 2vh;
   text-decoration: none;
   border: none;
   cursor: pointer;

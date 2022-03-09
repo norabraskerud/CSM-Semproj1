@@ -1,5 +1,6 @@
 body{
     margin: 0;
+  background-color:black;
 }
 
 main{
@@ -8,27 +9,28 @@ main{
 }
 
 header {
-  background-color: #0d0d0d;
+  background-color: black;
 }
 
 
  h1{
   font-family: teko;
   text-align: center;
+  color: white;
   }
 
   h2{
     font-size: 30px;
     font-family: teko;
     text-align: center;
+    color: white;
   }
   
   p{
-  font-family: 'Open Sans' ;
+  font-family: 'Montserrat' ;
   font-size:2vh;
   text-align: center;   
-  text-transform: uppercase;
-  color: #0d0d0d;
+  color: white
   }
 
 .logoheading a {
@@ -101,7 +103,7 @@ padding-right:10px;
     -ms-transform: translate(-50%, -50%);
     font-family: "Teko";
     letter-spacing: 2px;
-    font-size: 2vw;
+    font-size: 2vh;
     text-decoration: none;
     border-radius: 5px;
     border: none;
