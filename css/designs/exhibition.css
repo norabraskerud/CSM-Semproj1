@@ -1,25 +1,16 @@
 EXHIBITION
-.p{
-font-family: teko;
 
-}
-
-.exitext{
-max-width: 600px;
-text-align: center;
-font-family: teko;
-font-size: 1.5vw;
+.exitext{ 
 margin-top: 40px;
-padding: 50px 100px 50px 100px;
-background-color: white;
+padding: 50px 50px 50px 100px;
 color: #0d0d0d;
-opacity: 80%;
 
 }
 
-.exhibitionimg{
-position: relative;
-z-index: -6000;
+.hibimg{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
 }
 
 

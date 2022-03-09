@@ -1,14 +1,5 @@
 
-.abouttext{
-font-family: teko;
-font-size: 16px;
-text-align: center;
-padding: 40px 100px 50px 100px;
-color: #0d0d0d;
-background-color: white;
-opacity: 80%;
 
-}
 
 .book{
 border-radius: 20px 20px 20px 20px;
@@ -41,7 +32,7 @@ z-index: 100;
 .btn{
   font-family: "Teko";
   letter-spacing: 2px;
-  font-size: 20px;
+  font-size: 2vw;
   text-decoration: none;
   border: none;
   cursor: pointer;
@@ -50,7 +41,10 @@ z-index: 100;
   color: white;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
   transition: all 0.3s;
+  margin-bottom: 50px;
 }
 
 .btn:hover{

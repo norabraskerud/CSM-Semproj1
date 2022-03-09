@@ -1,20 +1,26 @@
-EXPLORE .p {
-  font-family: teko;
-}
+
 
 .exptext {
-  max-width: 700px;
   text-align: center;
-  font-size: 1.5vw;
-  font-family: teko;
   margin-top: 30px;
   color: #0d0d0d;
-  padding: 50px 50px 50px 50px;
   z-index: 10000px;
 }
 
-.expimg {
-  position: relative;
+.eximg {
   width: 100%;
   height: auto;
+  object-fit: cover;
+}
+
+.kidsimg{
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.exstartimg{
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
 }
