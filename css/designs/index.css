@@ -17,6 +17,7 @@ header {
   font-family: teko;
   text-align: center;
   color: white;
+  font-weight: 10;
   }
 
   h2{
@@ -24,13 +25,16 @@ header {
     font-family: teko;
     text-align: center;
     color: white;
+    letter-spacing: 2px;
+    font-weight:10;
   }
   
   p{
   font-family: 'Montserrat' ;
   font-size:2vh;
   text-align: center;   
-  color: white
+  color: white;
+  font-weight:10;
   }
 
 .logoheading a {
